@@ -1,0 +1,28 @@
+{
+  "name": "voting-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register --require ./test/test_helper.js --recursive",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5",
+    "babel-core": "^6.0.14",
+    "babel-eslint": "^4.1.3",
+    "chai": "^3.4.0",
+    "chai-immutable": "^1.5.0",
+    "eslint": "^1.8.0",
+    "eslint-config-airbnb": "^0.1.0",
+    "eslint-plugin-react": "^3.6.3",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "immutable": "^3.7.5",
+    "react": "^0.14.1"
+  }
+}
